@@ -1,0 +1,23 @@
+
+.tabs-tit {
+    border-bottom: 1px solid #ddd;
+    overflow:hidden;
+}
+
+.tabs-tit li{
+    display: inline-block;
+    list-style:none;
+
+}
+a{
+    padding:0 20px;
+    cursor:pointer;
+    display: inline-block;
+}
+.tabs-tit li.selected a{
+	color:mediumvioletred;
+}
+
+.hidden{
+	display:none;
+}
